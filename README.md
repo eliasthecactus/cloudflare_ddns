@@ -28,7 +28,7 @@
 
 ## Install
 ```sh
-wget https://raw.githubusercontent.com/eliasthecactus/cloudfalre_ddns/main/dnsupdate.sh
+curl https://raw.githubusercontent.com/eliasthecactus/cloudflare_ddns/main/dnsupdate.sh -o dnsupdate.sh
 sudo chmod +x dnsupdate.sh
 ```
 

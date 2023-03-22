@@ -24,7 +24,7 @@
 6) Set the zone resources to:
 7) Include - Specific Zone - example.com
 8) Complete the wizard and use the generated token at the CLOUDFLARE_API_TOKEN variable for the container
-```
+
 
 ## Install
 ```sh
@@ -33,10 +33,9 @@ sudo chmod +x dnsupdate.sh
 ```
 
 ## Config
-```sh
-1) sudo nano /usr/local/bin/dnsupdate.sh
+1) `sudo nano /usr/local/bin/dnsupdate.sh`
 2) change the variables at the beginning
-```
+
 
 ## Usage
 ```sh

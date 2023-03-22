@@ -27,6 +27,7 @@
 
 
 ## Install
+If you are on Windows, just download the dnsupdate.ps1, edit it and execute it.
 #### Install jq:<br>
 Debian/Ubuntu: `sudo apt-get install jq` | Arch: `sudo pacman -S jq` | Fedora: `udo dnf install jq` | macOS: `brew install jq`
 #### Download the script:

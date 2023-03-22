@@ -33,7 +33,7 @@ sudo chmod +x dnsupdate.sh
 ```
 
 ## Config
-1) `sudo nano /usr/local/bin/dnsupdate.sh`
+1) `sudo nano dnsupdate.sh`
 2) change the variables at the beginning
 
 

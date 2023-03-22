@@ -13,7 +13,7 @@
   </a>
 </p>
 
-> 😋 A simple Bash script to update cloudflares dns entry with your current IP
+> 😋 A simple Bash script to update cloudflares dns entry with your current IP (Linux macOS, Windows)
 
 ## Create API-Key
 1) Click Create Token

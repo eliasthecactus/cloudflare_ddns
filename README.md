@@ -59,7 +59,7 @@ sudo chmod +x dnsupdate.sh
 
 
 ## 🤝 Contributing
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/eliasthecactus/certify/issues).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/eliasthecactus/cloudflare_ddns/issues).
 
 
 ## Show your support

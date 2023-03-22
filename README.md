@@ -15,16 +15,32 @@
 
 > 😋 A simple Bash script to update cloudflares dns entry with your current IP
 
+## Create API-Key
+1) Click Create Token
+2) Select Create Custom Token
+3) Provide the token a name, for example, example.com-dns-zone-readonly
+4) Grant the token the following permissions:
+5) Zone - DNS - Edit
+6) Set the zone resources to:
+7) Include - Specific Zone - example.com
+8) Complete the wizard and use the generated token at the CLOUDFLARE_API_TOKEN variable for the container
+```
+
 ## Install
 ```sh
-git clone https://github.com/eliasthecactus/cloudfalre_ddns.git
-cd cloudfalre_ddns/
-sudo chmod +x updater.sh
+wget https://raw.githubusercontent.com/eliasthecactus/cloudfalre_ddns/main/dnsupdate.sh
+sudo chmod +x dnsupdate.sh
+```
+
+## Config
+```sh
+1) sudo nano /usr/local/bin/dnsupdate.sh
+2) change the variables at the beginning
 ```
 
 ## Usage
 ```sh
-./updater.sh
+./dnsupdate.sh
 ```
 
 

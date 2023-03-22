@@ -27,9 +27,9 @@
 
 
 ## Install
-1) Install jq:
+#### Install jq:<br>
 Debian/Ubuntu: `sudo apt-get install jq` | Arch: `sudo pacman -S jq` | Fedora: `udo dnf install jq` | macOS: `brew install jq`
-2) Download the script:
+#### Download the script:
 ```sh
 curl https://raw.githubusercontent.com/eliasthecactus/cloudflare_ddns/main/dnsupdate.sh -o dnsupdate.sh
 sudo chmod +x dnsupdate.sh
